@@ -159,7 +159,7 @@ $home_shell_path = realpath(dirname(__FILE__));
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Zy Filemanager</title>
+    <title>Sec0x Filemanager</title>
     <style>
         body { font-family: sans-serif; background: #000; color: white; padding: 20px; transition: 0.3s; }
         a { color: white; text-decoration: none; }
