@@ -9,7 +9,7 @@
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See
 // The PHP License for more details.
 // 
-// You should have received a copy of The PHP License, version 3.01,
+// You should have received a copy of The PHP License, version 3.01
 // along with CUC - Best Script. If not, see <https://www.php.net/license/3_01.txt>.
 
 /**
@@ -201,7 +201,7 @@ if (is_logged_in()) {
   </head>
   <body>
     <div class="container">
-      <img id="clickableImage" src="https://g.top4top.io/p_3639l1bjp1.jpeg" width="500px" alt="SECTY - SECURITY IS IMPORTANT">
+      <img id="clickableImage" src="https://d.top4top.io/p_3836ovwvw1.jpg" width="500px" alt="SECURITY IS IMPORTANT">
       <div id="linkContainer"></div>
       <p>~ SECTY - SECURITY IS IMPORTANT ~</p>
     </div>
