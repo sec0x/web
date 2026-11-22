@@ -95,7 +95,7 @@ if (is_logged_in()) {
 } else { 
     if (isset($_POST['password'])) { 
         $entered_key = $_POST['password']; 
-        $hashed_key = '$2a$12$Ku3s5jP8EQsZbSLVEx.Ls.0A8AyAsLv4zA1ewuLuU.xW1Q1OPNbQa'; // https://bcrypt.online/ 
+        $hashed_key = '$2a$12$N.zhvXqLZFFwda9Jwlcuvu6t5INOdFXteZHmGdVAlyT2ckn3WRheG'; // https://bcrypt.online/ 
         if (password_verify($entered_key, $hashed_key)) { 
             setcookie('coxphe', 'coxphe', time() + 3600, '/'); 
             header("Location: ".$_SERVER['PHP_SELF']); 
